@@ -237,7 +237,7 @@ public class HistoryActivity extends AppCompatActivity {
                 // === MAP / WEB / PHONE ICONS AND TOAST ===
                 map_btn = (Button) findViewById(R.id.food_map_icon);
                 web_btn = (Button) findViewById(R.id.food_web_icon);
-                phone_btn = (Button) findViewById(R.id.history_phone_icon);
+
                 final Toast phone_toast = Toast.makeText(getApplicationContext(), url, Toast.LENGTH_SHORT);
 
                 map_btn.setOnClickListener(new View.OnClickListener() {
@@ -258,12 +258,6 @@ public class HistoryActivity extends AppCompatActivity {
                     }
                 });
 
-                phone_btn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        phone_toast.show();
-                    }
-                });
 
 
                 // === ADD A VIEW TO THE IMG SWITCHER ===

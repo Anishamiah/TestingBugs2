@@ -54,6 +54,14 @@
         <activity android:name=".SpecificFoodActivity"/>
         <activity android:name=".SliderAdapter$ImageButtonActivity" />
 
+        <activity
+            android:name= ".HistoryTimeline"
+            android:name= ".HistoryFacts"
+
+            android:label="@string/title_activity_transport"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+
 
     </application>
 

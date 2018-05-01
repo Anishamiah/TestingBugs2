@@ -30,7 +30,7 @@ public class FactsSliderAdapter extends PagerAdapter {
             R.drawable.funfactim7,
             R.drawable.funfactim8,
             R.drawable.funfactim9,
-            R.drawable.funfactim10
+            R.drawable.funfactim9
     };
 
     int[] slide_descriptions = new int[] {
