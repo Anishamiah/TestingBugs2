@@ -31,35 +31,26 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".HistoryLanding"
             android:screenOrientation="portrait"/>
-        <activity
-            android:name=".TransportationActivity"
-            android:label="@string/title_activity_transportation"
-            android:theme="@style/AppTheme" />
+
         <activity android:name=".HistoryActivity"
             android:screenOrientation="portrait"/>
         <activity android:name=".FoodActivity"
             android:screenOrientation="portrait"/>
-        <activity
-            android:name=".TransportTabsActivity"
-            android:label="@string/title_activity_transport_tabs"
-            android:theme="@style/AppTheme"
-            android:screenOrientation="portrait"/>
+
         <activity
             android:name=".TransportActivity"
             android:label="@string/title_activity_transport"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"/>
-        <activity android:name=".CustomListAdapter"
-            android:screenOrientation="portrait"/>
+
         <activity android:name=".SpecificFoodActivity"/>
-        <activity android:name=".SliderAdapter$ImageButtonActivity" />
 
         <activity
-            android:name= ".HistoryTimeline"
-            android:name= ".HistoryFacts"
+            android:name=".HistoryTimeline"
+            android:screenOrientation="portrait"/>
 
-            android:label="@string/title_activity_transport"
-            android:theme="@style/AppTheme"
+        <activity
+            android:name=".HistoryFacts"
             android:screenOrientation="portrait"/>
 
 

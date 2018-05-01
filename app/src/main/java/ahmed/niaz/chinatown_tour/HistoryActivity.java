@@ -231,7 +231,7 @@ public class HistoryActivity extends AppCompatActivity {
 
                 // === NAME AND DESCRIPTION
                 spec_name = (TextView) findViewById(R.id.spec_history_name);
-                spec_description = (TextView) findViewById(R.id.spec_hotel_description);
+                spec_description = (TextView) findViewById(R.id.spec_history_description);
 
 
                 // === MAP / WEB / PHONE ICONS AND TOAST ===

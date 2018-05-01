@@ -25,10 +25,6 @@ public class HistoryFacts extends AppCompatActivity {
 
     int mCurrentPage;
 
-    public HistoryFacts(Context context) {
-
-        this.context = context;
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
